@@ -159,3 +159,7 @@
 // console.log("Rashadi" > "Rashad");
 // console.log("foo" > "bar");
 console.log("R" > "r");
+
+// Number() - stringi number tipine cevirir
+// + - stringi number tipine cevirir
+// ParseInt() - stringi number tipine cevirir
