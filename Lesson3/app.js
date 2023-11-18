@@ -151,3 +151,24 @@ let f = null;
 let g = NaN;
 
 console.log(e || c); // false
+
+
+
+let age = 10;
+let name = "Rasif"
+// if (age > 11) {
+//     console.log("yas 11-den boyukdur");
+//     if (name === "Rasif") {
+//         console.log("Istifadeci daxil oldu");
+//     }
+// }
+// else if (age < 11) {
+//     console.log("yas 11-den kicikdir");
+// }
+// else {
+//     console.log("Else sertine daxil oldu");
+// }
+
+
+// age > 11 ? console.log("yas 11-den boyukdur")
+//         : console.log("Else sertine daxil oldu")
