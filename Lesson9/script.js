@@ -122,3 +122,102 @@
         "d": 7
     }
 */
+
+//! replaceAll - netice uygun tapdigi hamisini deyisdirir
+// let text = "Rasif dsksdfjkfff sdjksdfjkdsf";
+// let replaceAll = text.replaceAll("f", "m");
+// let replace = text.replace("f", "m");
+// console.log(replaceAll);
+// console.log(replace);
+
+//! concat()
+// let text = "Rashad";
+// let str2 = " yaxsi";
+// let str3 = " oxuyur";
+// let result = text.concat(str2, str3);
+// console.log(result);
+
+//! trim()
+// let inputValue = "   userName    ";
+// console.log(inputValue);
+// console.log(inputValue.trim());
+
+//! charCodeAt()
+// const greeting = "Good morning!";
+// let codeAt = greeting.charCodeAt(2);
+// console.log(codeAt);
+
+//* Tasks:
+
+//! Task1:
+// let text =
+//   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni voluptatum optio suscipit itaque aliquid distinctio nesciunt quod cupiditate officiis! Eum quae labore blanditiis ducimus fugiat iste suscipit quibusdam perferendis eius.";
+// let sliceText = text.slice(0, 50).concat("...");
+// document.write(sliceText);
+
+//! Task2:
+// function removeCharacters(text, arr) {
+//   const textToArray = text.split("");
+//   for (let i = 0; i < textToArray.length; i++) {
+//     for (let j = 0; j < arr.length; j++) {
+//       if (textToArray[i] === arr[j]) {
+//         textToArray.splice(i, 1);
+//       }
+//     }
+//   }
+//   console.log(textToArray.join(""));
+// }
+// console.log(removeCharacters("I am an example string", ["a", "x"]));
+
+// Rashad methods:
+// function removeCharacters(text, arr) {
+//   for (let i = 0; i < text.length; i++) {
+//     if (arr.includes(text[i])) {
+//       console.log(text[i]);
+//       text = text.replaceAll(text[i], "");
+//     }
+//   }
+//   console.log(text);
+// }
+// removeCharacters("I am an example string", ["a", "x"]);
+
+// let input = document.querySelector("input");
+// let text = document.querySelector("p");
+// let btn = document.querySelector("button");
+
+// input.addEventListener("keyup", (e) => {
+//   let inputValue = e.target.value;
+//   text.innerHTML = inputValue;
+// });
+
+//! E-olymps tasks:
+// input
+// let num = 22345; // 33355
+// let strNum = String(num); // "22345"
+// let result = "";
+// for (let i = 0; i < strNum.length; i++) {
+//   if (strNum[i] % 2 == 0) {
+//     console.log(typeof strNum[i]);
+
+//   }
+//   result += strNum[i];
+// }
+// console.log(result);
+
+// while loop
+// let num = 1234584625; // 1335595735
+// let result = ""; //537
+// while (num > 0) {
+//   let sonuncu = num % 10; // 5,4,3,2,1
+//   console.log(sonuncu);
+//   if (sonuncu % 2 == 0) {
+//     sonuncu++;
+//   }
+//   result += sonuncu;
+//   num = parseInt(num / 10); //0
+// }
+// console.log(+result.split("").reverse().join(""));
+
+let n = 100; //9,90,900,9000
+let result = Math.pow(10, n - 1);
+console.log(9 * result);
