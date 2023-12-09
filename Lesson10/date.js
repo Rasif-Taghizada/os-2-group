@@ -90,16 +90,18 @@
 
 //! Task:
 // 5 Dec => C.A
-let tarix = new Date(2023, 11, 7); // 3-cu gun, Çərşənbə
-let hefteninGunleri = [
-  "Bazar ertəsi",
-  "çərşənbə axşamı",
-  "Çərşənbə",
-  "Cümə axşamı",
-  "Cümə",
-  "Şənbə",
-  "Bazar",
-];
-let hefteninGunu = tarix.getDay();
-console.log(hefteninGunu);
-console.log(hefteninGunleri[hefteninGunu - 1]);
+// let tarix = new Date(2023, 11, 7); // 3-cu gun, Çərşənbə
+// let hefteninGunleri = [
+//   "Bazar ertəsi",
+//   "çərşənbə axşamı",
+//   "Çərşənbə",
+//   "Cümə axşamı",
+//   "Cümə",
+//   "Şənbə",
+//   "Bazar",
+// ];
+// let hefteninGunu = tarix.getDay();
+// console.log(hefteninGunu);
+// console.log(hefteninGunleri[hefteninGunu - 1]);
+
+// console.log(-14 % 3);
