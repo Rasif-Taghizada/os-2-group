@@ -1,0 +1,12 @@
+#birinci {
+    color: red !important;
+}
+
+.container>h1:nth-child(2) {
+    color: blue;
+}
+
+input[type="password"] {
+    background-color: burlywood;
+}
+

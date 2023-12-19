@@ -49,21 +49,19 @@
 // console.log(hero.getSecretIdentity()); // John Doe
 
 //! Task-5:
-// var length = 10;
-// function fn() {
-//   console.log(this.length); //10
-// }
+var length = 4;
+function callback() {
+  console.log(this.length);
+}
 
-// var obj = {
-//   length: 5,
-//   method: function (fn) {
-//     fn();
-//     arguments[0]();
-//   },
-// };
-// console.log(this.arguments);
+const object = {
+  length: 5,
+  method() {
+    arguments[0]();
+  },
+};
 
-// obj.method(fn, 4);
+object.method(callback, 1, 2);
 
 //! Task-6:
 // let a = 5;
