@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+.box.active {
+    background-color: orange;
+    display: block;
+}
+
+
+/* form {
+    width: 300px;
+    margin: 50px;
+    background-color: red;
+    padding: 10px
+} */
+
+form div {
+    margin: 10px;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+form div p {
+    margin: 10px;
+    background-color: darkgoldenrod;
+    padding: 30px;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#text {
+    width: 100%;
+    height: 80px;
+    background-color: orange;
+}
+
+#result {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+
+body {
+    width: 100%;
+    height: 100dvh;
+}
